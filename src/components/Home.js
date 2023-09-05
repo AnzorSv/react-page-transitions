@@ -1,5 +1,12 @@
 import React from "react";
+import transition from "../transition";
 
-export default function Home() {
-  return <h1>Home Page</h1>;
-}
+const Home = () => {
+  return (
+    <div>
+      <h1>Home Page</h1>
+    </div>
+  );
+};
+
+export default transition(Home);

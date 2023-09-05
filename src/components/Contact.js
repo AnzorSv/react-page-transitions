@@ -1,5 +1,12 @@
 import React from "react";
+import transition from "../transition";
 
-export default function Contact() {
-  return <h1>Contact Page</h1>;
-}
+const Contact = () => {
+  return (
+    <div>
+      <h1>Contact Page</h1>
+    </div>
+  );
+};
+
+export default transition(Contact);

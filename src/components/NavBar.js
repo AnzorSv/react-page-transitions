@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <div className="nav">
       <div className="logo">
-        <Link className="nav-link" to="">
+        <Link className="nav-link" to="/">
           Anzori
         </Link>
       </div>
